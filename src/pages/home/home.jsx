@@ -1,0 +1,11 @@
+
+
+function Home() {
+    return (
+        <div>
+            Página home
+        </div>
+    )
+}
+
+export default Home;
