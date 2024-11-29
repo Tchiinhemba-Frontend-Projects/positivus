@@ -1,12 +1,13 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import "./App.css";
+
+import { AppRouter } from "./routes";
 
 function App() {
   return (
-    <>
-      <h1>initial commit</h1>
-    </>
+    <React.Fragment>
+      <AppRouter />
+    </React.Fragment>
   );
 }
 

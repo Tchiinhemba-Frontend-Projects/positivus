@@ -1,11 +1,10 @@
 
 
-function Home() {
+export function Home() {
     return (
         <div>
-            Página home
+            Home page
         </div>
     )
 }
 
-export default Home;

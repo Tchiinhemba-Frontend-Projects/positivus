@@ -1,6 +1,6 @@
 
 
-function About() {
+export function About() {
     return (
         <div>
             <h1>About Page</h1>
@@ -8,4 +8,3 @@ function About() {
     )
 }
 
-export default About;

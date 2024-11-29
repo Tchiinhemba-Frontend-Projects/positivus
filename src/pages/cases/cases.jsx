@@ -1,5 +1,5 @@
 
-function Cases() {
+export function Cases() {
     return (
         <div>
             <h1>Our Cases</h1>
@@ -8,4 +8,3 @@ function Cases() {
 }
 
 
-export default Cases;
