@@ -1,5 +1,5 @@
+import "./scss/styles.scss"
 import React from "react";
-import "./App.scss";
 
 import { AppRouter } from "./routes";
 
