@@ -13,18 +13,11 @@ export function Home() {
         <Partners />
       </section>
       <section className="services-container">
-        <div className="heading_wrapper">
-          <div>
-            <Heading type="green">Services</Heading>
-          </div>
-          <div className="heading-description">
-            <span>
-              At our digital marketing agency, we offer a range of services to
-              <br />
-              help businesses grow and succeed online. These services include:
-            </span>
-          </div>
-        </div>
+        <Heading type="green" title="Services">
+          At our digital marketing agency, we offer a range of services to{" "}
+          <br />
+          help businesses grow and succeed online. These services include:
+        </Heading>
       </section>
     </React.Fragment>
   );
