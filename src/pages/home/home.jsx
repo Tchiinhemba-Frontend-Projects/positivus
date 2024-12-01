@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Button } from "../../components";
+import { Header, Button, Heading } from "../../components";
 import { assets } from "../../assets";
 
 export function Home() {
@@ -11,6 +11,20 @@ export function Home() {
           <Hero />
         </main>
         <Partners />
+      </section>
+      <section className="services-container">
+        <div className="heading_wrapper">
+          <div>
+            <Heading type="green">Services</Heading>
+          </div>
+          <div className="heading-description">
+            <span>
+              At our digital marketing agency, we offer a range of services to
+              <br />
+              help businesses grow and succeed online. These services include:
+            </span>
+          </div>
+        </div>
       </section>
     </React.Fragment>
   );
@@ -51,11 +65,9 @@ function Partners() {
     <React.Fragment>
       <div className="partners_wrapper">
         <div className="partners_container">
-          {
-            partners.map((value, index) => {
-              return (<img key={index} src={value}/>)
-            })
-          }
+          {partners.map((value, index) => {
+            return <img key={index} src={value} />;
+          })}
         </div>
       </div>
     </React.Fragment>

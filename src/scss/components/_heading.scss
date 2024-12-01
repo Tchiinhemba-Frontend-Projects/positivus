@@ -1,0 +1,25 @@
+@use "../abstracts" as *;
+
+.heading {
+  padding: $mb-1xs;
+  display: inline-block;
+  border-radius: $mb-1xs;
+}
+
+.heading-container {
+  font-size: $h2-font-size;
+}
+
+.heading-green {
+  background-color: $green;
+}
+
+.heading_wrapper {
+    display: flex;
+    align-items: center;
+    gap: $mb-4lg;
+}
+
+.heading-description {
+    font-size: $normal-font-size;
+}
