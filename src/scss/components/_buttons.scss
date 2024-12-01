@@ -1,0 +1,30 @@
+@use "../abstracts" as *;
+
+.btn {
+  font-size: $normal-font-size;
+  line-height: 2.8rem;
+  font-weight: $font-medium;
+
+  padding: $mb-2sm $mb-3-5md;
+  border: 0.1rem solid $black;
+  border-radius: 1rem;
+
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $black;
+  color: $white;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: $transparent;
+  color: $black;
+}
+
+.btn-tertiary {
+  background-color: $green;
+  color: $black;
+  border: none;
+}

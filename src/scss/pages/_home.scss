@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+section {
+  padding: $mb-3-5md $mb-10xxl;
+  display: flex;
+  flex-direction: column;
+  gap: $mb-7xxl;
+}
+
+
+
+.partners_container {
+  display: flex;
+  justify-content: space-between;
+  
+  img {
+    filter: grayscale(1);
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}

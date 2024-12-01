@@ -1,0 +1,39 @@
+@use "../abstracts" as *;
+
+.he_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.he_logo-container {
+  img {
+    max-height: 5.6rem;
+  }
+}
+
+.he_navigation-container {
+  display: flex;
+  align-items: center;
+  gap: $mb-4lg;
+
+  nav ul {
+    display: flex;
+    gap: $mb-4lg;
+
+    a {
+      font-size: $normal-font-size;
+      color: $black;
+    }
+  }
+}
+
+// RESPONSIVINESS
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 430px) {
+
+}
