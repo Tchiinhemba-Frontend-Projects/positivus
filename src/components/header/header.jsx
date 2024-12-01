@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import { assets } from "../../assets";
+import { Button } from "../../components";
 
 export function Header() {
   const { logos } = assets;
 
   return (
-    <div className="hea_wrapper">
-      <div className="hea_logo-container">
+    <div className="he_wrapper">
+      <div className="he_logo-container">
         <img src={logos.logo_black} alt="" />
       </div>
-      <div className="hea_navigation-container">
-        <div className="hea_navigation">
+      <div className="he_navigation-container">
+        <div className="he_navigation">
           <nav>
             <ul>
               <li>
@@ -31,8 +32,8 @@ export function Header() {
             </ul>
           </nav>
         </div>
-        <div className="hea_btn-container">
-          <button>Request a quote</button>
+        <div className="">
+          <Button type="primary">Request a quote</Button>
         </div>
       </div>
     </div>

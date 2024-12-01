@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.hero_wrapper {
+    display: flex;
+}
+
+.hero_info-container {
+
+}
+
+.hero_tittle {
+    font-size: $h1-font-size;
+
+}
+
+.hero_description {
+    font-size: $normal-font-size;
+
+}
+
+.hero_btn-container {
+    
+}

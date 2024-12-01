@@ -1,3 +1,59 @@
-$green-yellow: #B9FF66;
-$raisin-black: #191A23;
-$white-smoke: #F3F3F3;
+/* ============= Font weight ============= */
+$font-medium: 400;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+/* ============= Colours ============= */
+$green: #b9ff66;
+$dark: #191a23;
+$grey: #f3f3f3;
+$black: #000000;
+$white: #FFFFFF;
+$transparent: #FFFFFF00;
+
+/* ============= Font ans Typography ============= */
+$body-font: "Space Grotesk", serif;
+$h1-font-size: 6rem;
+$h2-font-size: 4rem;
+$h3-font-size: 3rem;
+$h4-font-size: 2rem;
+
+$normal-font-size: 1.8rem;
+
+/* ============= Margens ============= */
+
+/* Extra Small (XS) */
+$mb-1xs: 1rem; // 1x tamanho base
+$mb-1-5xs: 1.5rem; // 1.5x tamanho base
+$mb-1-8xs: 1.8rem; // 1.8x tamanho base
+
+/* Small (SM) */
+$mb-2sm: 2rem;
+$mb-2-5sm: 2.5rem;
+$mb-2-6sm: 2.6rem;
+$mb-2-8sm: 2.8rem;
+
+/* Medium (MD) */
+$mb-3md: 3rem;
+$mb-3-5md: 3.5rem;
+
+/* Large (LG) */
+$mb-4lg: 4rem;
+
+/* Extra Large (XL) */
+$mb-5xl: 5rem;
+$mb-5-5xl: 5.5rem;
+$mb-5-6xl: 5.6rem;
+
+/* Double Extra Large (XXL) */
+$mb-6xxl: 6rem;
+$mb-6-4xxl: 6.4rem;
+$mb-6-6xxl: 6.6rem;
+$mb-7xxl: 7rem;
+$mb-8xxl: 8rem;
+$mb-9-3xxl: 9.3rem;
+$mb-10xxl: 10rem;
+$mb-12-4xxl: 12.4rem;
+$mb-15-4xxl: 15.4rem;
+
+/* ============= Z Index ============= */
